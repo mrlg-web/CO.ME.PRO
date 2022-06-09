@@ -38,6 +38,7 @@ img {
 }
 
 /* Navbar */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -68,9 +69,17 @@ img {
 
 .navbar .logo {
     font-weight: 900;
+    align-self: flex-end;
 }
 
-/* .navbar .logo-icon [] */
+.video-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.video-logo {
+    opacity: .7;
+}
 
 /* Header */
 .hero {
@@ -91,8 +100,15 @@ img {
 
 }
 
+.hero #logo-top {
+    display: inline;
+    align-self: auto;
+}
+
 .hero .content h1 {
-    font-size: 80px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .hero .content p {
@@ -113,4 +129,60 @@ img {
 
 .hero * {
     z-index: 10;
+}
+
+/* Post */
+.post {
+    padding: 50px 30px;
+}
+
+.post h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
+
+.post .meta {
+    margin-bottom: 30px;
+}
+
+.post img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+/* Footer  */
+.footer {
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 110px;
+}
+
+.footer a {
+    color: #333;
+}
+
+.footer a:hover {
+    color: #2468b0;
+
+}
+
+/* .footer .social .youtube .fab i:hover { */
+.footer .social #youtube-color:hover {
+    color: red;
+}
+
+.footer .social #instagram-color:hover {
+    color: red;
+}
+
+.footer .social>* {
+    margin-right: 30px;
 }

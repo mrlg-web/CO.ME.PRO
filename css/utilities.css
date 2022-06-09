@@ -15,7 +15,7 @@
     color: antiquewhite;
 }
 
-.content .text-logo-1 {
+.text-logo-1 {
     color: red;
 }
 
@@ -24,7 +24,8 @@
 }
 
 .text-logo-3 {
-    color: #361500;
+    /* color: #361500; */
+    color: rgb(98, 46, 46);
 }
 
 /* Buttton */
